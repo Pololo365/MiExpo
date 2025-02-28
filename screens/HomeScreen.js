@@ -1,42 +1,56 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button } from 'react-native';
 
-// Componente funcional para mostrar la fecha y hora actualizada cada segundo
-const HomeScreen = () => {
+// Se reciben las props 'route' para obtener parámetros y 'navigation' para navegar a otras pantallas
+const HomeScreen = ({ route, navigation }) => {
+  // Se extraen el mensaje y el token enviados desde LoginScreen
+  const { message, token } = route.params || {};
+
   // Estado para almacenar la fecha y hora actual
   const [dateTime, setDateTime] = useState(new Date());
 
-  // useEffect se encarga de actualizar la fecha y hora cada 1000 milisegundos (1 segundo)
   useEffect(() => {
-    // Creamos un intervalo que actualiza el estado
+    // Imprime en consola al entrar a HomeScreen
+    console.log('Estoy en HomeScreen: ', token);
+
+    // Intervalo para actualizar la fecha y hora cada segundo
     const timer = setInterval(() => {
       setDateTime(new Date());
     }, 1000);
 
-    // Limpiamos el intervalo al desmontar el componente para evitar fugas de memoria
     return () => clearInterval(timer);
   }, []);
 
   return (
-    // Contenedor principal centrado vertical y horizontalmente
     <View style={styles.container}>
-      {/* Mostramos la fecha y hora en formato local */}
+      {/* Muestra el mensaje recibido */}
+      {message && <Text style={styles.messageText}>{message}</Text>}
+      {/* Muestra la fecha y hora actual */}
       <Text style={styles.text}>{dateTime.toLocaleString()}</Text>
+      {/* Botón para navegar a la pantalla de Órdenes de Trabajo */}
+      <Button 
+        title="📝 Órdenes de Trabajo" 
+        onPress={() => navigation.navigate('WorkOrders', { token })}
+      />
     </View>
   );
 };
 
-// Definición de estilos básicos para la pantalla
 const styles = StyleSheet.create({
   container: {
-    flex: 1,                   // Ocupa todo el espacio disponible
-    justifyContent: 'center',  // Centra el contenido verticalmente
-    alignItems: 'center',      // Centra el contenido horizontalmente
-    backgroundColor: '#FFFFFF' // Fondo blanco
+    flex: 1,                   
+    justifyContent: 'center',  
+    alignItems: 'center',      
+    backgroundColor: '#FFFFFF' 
   },
   text: {
-    fontSize: 24,              // Tamaño de fuente adecuado para buena visibilidad
-    color: '#333333'           // Color de texto oscuro para buen contraste
+    fontSize: 24,
+    color: '#333333'
+  },
+  messageText: {
+    fontSize: 20,
+    color: '#007AFF',
+    marginBottom: 20,
   }
 });
 
