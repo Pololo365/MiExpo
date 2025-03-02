@@ -1,12 +1,20 @@
+// DetalleOrdenScreen.js
+
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator, ScrollView, Alert } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, ScrollView, Alert, TouchableOpacity } from 'react-native';
+// Importamos el componente del modal de firma
+import SignatureModal from './SignatureModal';
+import { formatDate } from '../funciones';
 
 const DetalleOrdenScreen = ({ route }) => {
-  // Se extrae el token y el id de la orden de los parámetros
+  // Extraemos el token y el id de la orden de los parámetros de la ruta
   const { token, orderId } = route.params || {};
-  // Estados para almacenar el detalle de la orden y el indicador de carga
+  // Estado para almacenar el detalle de la orden
   const [orderDetail, setOrderDetail] = useState(null);
+  // Estado para controlar la carga de datos
   const [loading, setLoading] = useState(true);
+  // Estado para controlar la visibilidad del modal de firma
+  const [modalVisible, setModalVisible] = useState(false);
 
   // Función para obtener el detalle de la orden desde el servidor
   const fetchOrderDetail = async () => {
@@ -15,12 +23,12 @@ const DetalleOrdenScreen = ({ route }) => {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`, // Se envía el token en el header
+          'Authorization': `Bearer ${token}`,
         },
       });
       const data = await response.json();
       if (response.ok) {
-        console.log('data', data);
+        // Guardamos la información de la orden en el estado
         setOrderDetail(data);
       } else {
         Alert.alert('Error', data.message || 'Error al obtener el detalle de la orden');
@@ -32,6 +40,7 @@ const DetalleOrdenScreen = ({ route }) => {
     }
   };
 
+  // Se ejecuta al montar la pantalla para cargar los datos de la orden
   useEffect(() => {
     fetchOrderDetail();
   }, []);
@@ -43,22 +52,40 @@ const DetalleOrdenScreen = ({ route }) => {
         <ActivityIndicator size="large" color="#007AFF" />
       ) : orderDetail ? (
         <>
+          {/* Se muestran los detalles de la orden */}
           <Text style={styles.detailText}>Número: {orderDetail.numero}</Text>
-          <Text style={styles.detailText}>Nombre del Cliente: {orderDetail.cliente_nombre}</Text>
-          <Text style={styles.detailText}>Fecha: {orderDetail.fecha}</Text>
-          <Text style={styles.detailText}>Situación: {orderDetail.situacion}</Text>
+          <Text style={styles.detailText}>Nombre del Cliente: {orderDetail.cliente.nombre}</Text>
+          <Text style={styles.detailText}>Fecha Orden: {formatDate(orderDetail.fecha_orden)}</Text>
+          <Text style={styles.detailText}>Fecha Montaje: {formatDate(orderDetail.fecha_montaje)}</Text>
+          <Text style={styles.detailText}>Situación: {orderDetail.situacion_trabajo}</Text>
           <Text style={styles.detailText}>Instalar en: {orderDetail.instalar_en}</Text>
           <Text style={styles.detailText}>Descripción: {orderDetail.descripcion || 'No disponible'}</Text>
           <Text style={styles.detailText}>¿Tiene firma?: {orderDetail.tiene_firma ? 'Sí' : 'No'}</Text>
-          {/* Agrega más campos según sea necesario */}
+          
+          {/* Botón "Firmar" para abrir el modal donde se capturará la firma */}
+          <TouchableOpacity 
+            style={styles.firmarButton} 
+            onPress={() => setModalVisible(true)} // Al pulsar se muestra el modal
+          >
+            <Text style={styles.firmarButtonText}>Firmar</Text>
+          </TouchableOpacity>
         </>
       ) : (
         <Text>No se encontró información para esta orden.</Text>
       )}
+
+      {/* Modal para capturar la firma. Se pasa el orderId para utilizarlo al enviar la firma */}
+      <SignatureModal 
+        visible={modalVisible} 
+        onClose={() => setModalVisible(false)} 
+        orderId={orderId}
+        token={token}
+      />
     </ScrollView>
   );
 };
 
+// Estilos de la pantalla de detalle y del botón "Firmar"
 const styles = StyleSheet.create({
   container: {
     padding: 20,
@@ -71,9 +98,21 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   detailText: {
-    fontSize: 16,
+    fontSize: 14,
     color: '#333333',
-    marginBottom: 10, // Espaciado entre líneas
+    marginBottom: 10,
+  },
+  // Estilos para el botón "Firmar"
+  firmarButton: {
+    backgroundColor: '#007AFF',
+    padding: 12,
+    borderRadius: 5,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  firmarButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
   },
 });
 

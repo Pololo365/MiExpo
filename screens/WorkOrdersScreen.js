@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, Alert } from 'react-native';
-
+import { formatDate } from '../funciones';
 const WorkOrdersScreen = ({ route, navigation }) => {
   // Se extrae el token de los parámetros recibidos desde HomeScreen
   const { token } = route.params || {};
@@ -51,10 +51,9 @@ const WorkOrdersScreen = ({ route, navigation }) => {
     <TouchableOpacity style={styles.orderItem} onPress={() => handleOrderPress(item.id)}>
       <Text style={styles.orderText}>Número: {item.numero}</Text>
       <Text style={styles.orderText}>Nombre: {item.cliente_nombre}</Text>
-      <Text style={styles.orderText}>Fecha: {item.fecha}</Text>
+      <Text style={styles.orderText}>Fecha: {formatDate(item.fecha)}</Text>
       <Text style={styles.orderText}>Situación: {item.situacion}</Text>
       <Text style={styles.orderText}>Instalar en: {item.instalar_en}</Text>
-      <Text style={styles.orderText}>Descripción: {item.descripcion || 'No disponible'}</Text>
       <Text style={styles.orderText}>¿Tiene firma?: {item.tiene_firma ? 'Sí' : 'No'}</Text>
     </TouchableOpacity>
   );
