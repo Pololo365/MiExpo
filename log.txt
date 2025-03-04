@@ -1,0 +1,760 @@
+--------- beginning of system
+03-04 21:26:16.907 21472 21472 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+03-04 21:26:16.908 21472 21472 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+03-04 21:26:16.908 21472 21472 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+03-04 21:26:16.908 21472 21472 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+03-04 21:26:16.908 21472 21472 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.sDebugIme = false
+03-04 21:26:16.936 21472 21472 I Quality : Skipped: false 1 cost 29.70375 refreshRate 16654179 bit true processName com.pololo365.MiExpo
+03-04 21:26:16.962 21472 21472 V ZoomWindowDecorView: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.37677336
+--------- beginning of main
+03-04 21:26:17.295 21472 21533 I ExpoModulesCore: ✅ AppContext was initialized
+03-04 21:26:17.320 21472 21533 W ReactNativeJNI: Component property map contains multiple entries for 'borderColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+03-04 21:26:17.320 21472 21533 W ReactNativeJNI: Component property map contains multiple entries for 'borderStyle'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+03-04 21:26:17.324 21472 21605 V RNKeychainManager: warming up started at 1036292460271658
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Probe cipher storage: FacebookConceal
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Probe cipher storage: KeystoreAESCBC
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Probe cipher storage: KeystoreRSAECB
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Probe cipher storage: KeystoreAESGCM_NoAuth
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Probe cipher storage: KeystoreAESGCM
+03-04 21:26:17.334 21472 21605 D RNKeychainManager: Selected storage: KeystoreAESGCM_NoAuth
+03-04 21:26:17.385 21472 21533 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+03-04 21:26:17.420 21472 21533 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+03-04 21:26:17.421 21472 21472 W unknown:BridgelessReact: ReactContext.onHostResume()
+03-04 21:26:17.421 21472 21472 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+03-04 21:26:17.422 21472 21533 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+03-04 21:26:17.466 21472 21534 D nativeloader: Load /data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!/lib/arm64-v8a/libexpo-modules-core.so using ns clns-4 from class loader (caller=/data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!classes2.dex): ok
+03-04 21:26:17.479 21472 21534 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+03-04 21:26:17.489 21472 21534 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10246; state: ENABLED
+03-04 21:26:17.499 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+03-04 21:26:17.501 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+03-04 21:26:17.503 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+03-04 21:26:17.504 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+03-04 21:26:17.505 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+03-04 21:26:17.506 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+03-04 21:26:17.507 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+03-04 21:26:17.509 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+03-04 21:26:17.512 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+03-04 21:26:17.514 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+03-04 21:26:17.514 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+03-04 21:26:17.516 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+03-04 21:26:17.517 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+03-04 21:26:17.517 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+03-04 21:26:17.529 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+03-04 21:26:17.534 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+03-04 21:26:17.535 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+03-04 21:26:17.536 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+03-04 21:26:17.539 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+03-04 21:26:17.540 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+03-04 21:26:17.542 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+03-04 21:26:17.542 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+03-04 21:26:17.544 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+03-04 21:26:17.550 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+03-04 21:26:17.554 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+03-04 21:26:17.555 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+03-04 21:26:17.557 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+03-04 21:26:17.559 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+03-04 21:26:17.561 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+03-04 21:26:17.566 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+03-04 21:26:17.568 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+03-04 21:26:17.573 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+03-04 21:26:17.576 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+03-04 21:26:17.586 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+03-04 21:26:17.586 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+03-04 21:26:17.588 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+03-04 21:26:17.590 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+03-04 21:26:17.591 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+03-04 21:26:17.593 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+03-04 21:26:17.594 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+03-04 21:26:17.598 21472 21534 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+03-04 21:26:17.604 21472 21534 I ReactNativeJS: Bridgeless mode is enabled
+03-04 21:26:17.610 21472 21534 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+03-04 21:26:17.618 21472 21534 I ExpoModulesCore: ✅ JSI interop was installed
+03-04 21:26:17.619 21472 21605 V RNKeychainManager: warming up takes: 295 ms
+03-04 21:26:17.621 21472 21534 W ExpoModulesCore: ⚠️ JSI interop was already installed
+03-04 21:26:17.623 21472 21534 I ExpoModulesCore: ✅ Constants were exported
+03-04 21:26:17.686 21472 21534 D nativeloader: Load /data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!/lib/arm64-v8a/librnscreens.so using ns clns-4 from class loader (caller=/data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!classes2.dex): ok
+03-04 21:26:17.693 21472 21534 I ReactNativeJS: Running "main"
+03-04 21:26:17.713 21472 21534 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.715 21472 21534 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+03-04 21:26:17.733 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.733 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.734 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.734 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.735 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.735 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.735 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.735 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.738 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.738 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.748 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.748 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.749 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.749 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.749 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.749 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.749 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.749 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.750 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.750 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.760 21472 21472 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{80ab3a1 V.E...... ......ID 0,0-1080,2158 #b}
+03-04 21:26:17.768 21472 21534 D nativeloader: Load /data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!/lib/arm64-v8a/libgesturehandler.so using ns clns-4 from class loader (caller=/data/app/~~CLqyMHFI8j6TdMSHfAaEzA==/com.pololo365.MiExpo-vRtDWCVySxSBI1SnmJXAZw==/base.apk!classes2.dex): ok
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Entering merged library JNI_OnLoad.
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x6f988ba280
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libmapbufferjni_so.  onload_func: 0x6f98905568
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x6f9897cc00
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x6f98983b50
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x6f989a6e1c
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x6f98a2f240
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x6f98a4db88
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x6f98a67d8c
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x6f98ac70e0
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x6f98ace958
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x6f98ad3c08
+03-04 21:26:17.768 21472 21534 D jni_lib_merge: About to register 11 actual methods.
+03-04 21:26:17.769 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.769 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.770 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.770 21472 21472 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+03-04 21:26:17.778 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:17.778 21472 21472 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+03-04 21:26:17.791 21472 21472 I Quality : Skipped: false 1 cost 28.448135 refreshRate 16652776 bit true processName com.pololo365.MiExpo
+03-04 21:26:17.836 21472 21472 I Quality : Skipped: true 2 cost 39.99748 refreshRate 16652776 bit true processName com.pololo365.MiExpo
+03-04 21:26:19.212 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:19.220 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:26:19.335 21472 21472 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@42a7b1
+03-04 21:26:19.372 21472 21472 V AutofillManager: receiver results: flags=7 enabled=true, enabledForAugmentedOnly: false
+03-04 21:26:19.372 21472 21472 V AutofillManager: startSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], flags=0, state=UNKNOWN, compatMode=false, augmentedOnly=false, enabledAugmentedOnly=false, enteredIds=null
+03-04 21:26:19.396 21472 21472 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10246; state: ENABLED
+03-04 21:26:19.396 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{c6a906e VFED..CL. .F....ID 60,309-1020,420 #22 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:26:19.420 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:19.420 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:19.423 21472 21472 I Quality : Skipped: true 2 cost 45.06125 refreshRate 16652822 bit true processName com.pololo365.MiExpo
+03-04 21:26:19.425 21472 21472 I AssistStructure: Flattened final assist data: 1796 bytes, containing 1 windows, 9 views
+03-04 21:26:19.605 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:19.605 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:19.647 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:20.043 21472 21472 V AutofillManager: setTrackedViews(): sessionId=458940692, trackedIds=null, saveOnAllViewsInvisible=false, saveOnFinish=true, fillableIds=[1073741826@458940692], saveTrigerId=null, mFillableIds=null, mEnabled=true, mSessionId=458940692
+03-04 21:26:20.083 21472 21472 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.RootViewManager
+03-04 21:26:21.092 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:21.092 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:26:21.097 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:21.097 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:21.124 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:21.124 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:26:21.125 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:21.126 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:21.426 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:21.426 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:26:21.432 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:21.432 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:21.447 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:21.447 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:26:21.449 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:21.449 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:22.289 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:22.289 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:26:22.297 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:22.297 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:22.313 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:22.313 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:26:22.315 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:22.315 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:22.420 21472 21803 D ProfileInstaller: Installing profile for com.pololo365.MiExpo
+03-04 21:26:22.703 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:22.703 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:26:22.713 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:22.713 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:22.733 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:22.733 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:26:22.734 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:22.734 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:26.787 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:26.787 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:26.794 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:26.795 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:26.802 21472 21534 I ReactNativeJS: 'Error al cargar la contraseña', [Error: Invalid key provided to SecureStore. Keys must not be empty and contain only alphanumeric characters, ".", "-", and "_".]
+03-04 21:26:26.810 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:26.810 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:26.814 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:26.814 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:27.737 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:28.173 21472 21472 I Quality : Skipped: true 1 cost 18.196226 refreshRate 16655028 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.348 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{4fde213 V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:26:28.378 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@4da8c6f
+03-04 21:26:28.381 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:28.385 21472 21472 I Quality : Skipped: false 2 cost 47.1842 refreshRate 16655028 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.402 21472 21472 D BufferQueueConsumer: [](id:53e000000001,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:28.406 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:ce44902]#1(BLAST Consumer)1](id:53e000000001,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:28.407 21472 21472 D VRI[PopupWindow:ce44902]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:28.448 21472 21520 D VRI[PopupWindow:ce44902]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:28.450 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:28.451 21472 21472 D VRI[PopupWindow:ce44902]: draw finished.
+03-04 21:26:28.455 21472 21472 I Quality : Skipped: false 4 cost 66.66635 refreshRate 16655247 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.473 21472 21472 D VRI[PopupWindow:ce44902]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:28.474 21472 21520 D VRI[PopupWindow:ce44902]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+03-04 21:26:28.474 21472 21472 D VRI[PopupWindow:ce44902]: draw finished.
+03-04 21:26:28.530 21472 21472 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10246; state: ENABLED
+03-04 21:26:28.554 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{fef0341 V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:26:28.566 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@967927d
+03-04 21:26:28.566 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:28.568 21472 21472 I Quality : Skipped: false 4 cost 79.46811 refreshRate 16654809 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.593 21472 21472 D BufferQueueConsumer: [](id:53e000000002,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:28.597 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:5b99a28]#2(BLAST Consumer)2](id:53e000000002,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:28.601 21472 21472 D VRI[PopupWindow:5b99a28]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:28.606 21472 21520 D VRI[PopupWindow:5b99a28]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:28.607 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:28.608 21472 21472 D VRI[PopupWindow:5b99a28]: draw finished.
+03-04 21:26:28.611 21472 21472 I Quality : Skipped: false 2 cost 39.45571 refreshRate 16653812 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.612 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=null, action=3, flags=0
+03-04 21:26:28.613 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=2, flags=132
+03-04 21:26:28.629 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{80f7f9c VFED..CL. .F....ID 60,507-1020,618 #28 aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:26:28.632 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:28.632 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:28.665 21472 21472 I Quality : Skipped: false 2 cost 44.106937 refreshRate 16653059 bit true processName com.pololo365.MiExpo
+03-04 21:26:28.665 21472 21472 D VRI[PopupWindow:5b99a28]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:28.668 21472 21520 D VRI[PopupWindow:5b99a28]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:26:28.669 21472 21472 D VRI[PopupWindow:5b99a28]: draw finished.
+03-04 21:26:28.670 21472 21472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+03-04 21:26:28.681 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=1
+03-04 21:26:28.706 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:28.706 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:28.715 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:29.460 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:29.464 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:26:29.612 21472 21472 I Quality : Skipped: true 6 cost 108.21892 refreshRate 16660873 bit true processName com.pololo365.MiExpo
+03-04 21:26:29.632 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:29.632 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@ba0cf96
+03-04 21:26:29.632 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:29.632 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@6bc4717
+03-04 21:26:29.632 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:29.659 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:ce44902]#1(BLAST Consumer)1](id:53e000000001,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:29.660 21472 21472 D BufferQueueConsumer: [VRI[PopupWindow:ce44902]#1(BLAST Consumer)1](id:53e000000001,api:0,p:-1,c:21472) disconnect
+03-04 21:26:29.679 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:29.679 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:29.681 21472 21472 I Quality : Skipped: false 3 cost 60.261665 refreshRate 16660873 bit true processName com.pololo365.MiExpo
+03-04 21:26:29.683 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:29.683 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:29.695 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=2
+03-04 21:26:29.891 21472 21472 I Quality : Skipped: true 1 cost 21.398237 refreshRate 16648491 bit true processName com.pololo365.MiExpo
+03-04 21:26:29.943 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:29.943 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@542a07a
+03-04 21:26:29.943 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:29.944 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@29fb02b
+03-04 21:26:29.946 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:29.963 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:5b99a28]#2(BLAST Consumer)2](id:53e000000002,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:29.963 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f7d632600 (RippleDrawable) with handle 0xb400006fed50f300
+03-04 21:26:29.973 21472 21472 I Quality : Skipped: true 1 cost 19.417587 refreshRate 16652014 bit true processName com.pololo365.MiExpo
+03-04 21:26:29.989 21472 21491 D BufferQueueConsumer: [VRI[PopupWindow:5b99a28]#2(BLAST Consumer)2](id:53e000000002,api:0,p:-1,c:21472) disconnect
+03-04 21:26:30.812 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:30.917 21472 21472 I Quality : Skipped: true 2 cost 47.524426 refreshRate 16657896 bit true processName com.pololo365.MiExpo
+03-04 21:26:30.970 21472 21925 I WebViewFactory: Loading com.google.android.webview version 133.0.6943.122 (code 694312233)
+03-04 21:26:30.979 21472 21925 W ziparchive: Unable to open '/data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.dm': No such file or directory
+03-04 21:26:30.980 21472 21925 W ziparchive: Unable to open '/data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.dm': No such file or directory
+03-04 21:26:30.980 21472 21925 W ololo365.MiExpo: Entry not found
+03-04 21:26:30.980 21472 21925 D nativeloader: Configuring clns-5 for other apk /data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/lib/arm64:/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk!/lib/arm64-v8a:/data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+03-04 21:26:30.980 21472 21925 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libupdateprof.qti.so:libQOC.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:liblistenjni.qti.so
+03-04 21:26:30.984 21472 21925 D nativeloader: Configuring clns-6 for other apk /system_ext/framework/androidx.window.extensions.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/lib/arm64:/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk!/lib/arm64-v8a:/data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+03-04 21:26:30.984 21472 21925 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libupdateprof.qti.so:libQOC.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:liblistenjni.qti.so
+03-04 21:26:30.991 21472 21925 D nativeloader: Configuring clns-7 for other apk /data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/lib/arm64:/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk!/lib/arm64-v8a:/data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+03-04 21:26:31.080 21472 21925 I cr_WVCFactoryProvider: version=133.0.6943.122 (694312233) minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+03-04 21:26:31.086 21472 21925 D nativeloader: Load /data/app/~~8HFGQfdy5HK5DdBBRWKd4A==/com.google.android.trichromelibrary_694312233-nkALtG0-qVil4r5DH8YklQ==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using ns clns-7 from class loader (caller=/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk): ok
+03-04 21:26:31.098 21472 21925 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-7 from class loader (caller=/data/app/~~FpisvNK-AvWqUugzi-rQHg==/com.google.android.webview-RH_8W6nCbmC8NH1-gJS4og==/base.apk): ok
+03-04 21:26:31.117 21472 21937 I chromium: [0304/212631.108599:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+03-04 21:26:31.122 21472 21937 I chromium: [0304/212631.122290:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+03-04 21:26:31.169 21472 21925 I cr_LibraryLoader: Successfully loaded native library
+03-04 21:26:31.178 21472 21925 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms, 0 samples were dropped.
+03-04 21:26:31.287 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:31.287 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:31.288 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:31.288 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:31.289 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:31.289 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:31.290 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:31.290 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:31.293 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:31.293 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:31.297 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=1
+03-04 21:26:31.317 21472 21472 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+03-04 21:26:31.317 21472 21472 D ScrollOptimizationHelper: will not debug for debug is false
+03-04 21:26:31.317 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.317 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.317 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.321 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.321 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.321 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:31.329 21472 21472 D WindowManager: Add to mViews: DecorView@9b44f8d[MainActivity],pkg= com.pololo365.MiExpo
+03-04 21:26:31.341 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@2235789
+03-04 21:26:31.342 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:31.343 21472 21472 I Quality : Skipped: false 2 cost 40.69548 refreshRate 16653122 bit true processName com.pololo365.MiExpo
+03-04 21:26:31.358 21472 21472 D BufferQueueConsumer: [](id:53e000000003,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:31.358 21472 21472 E IPCThreadState: attemptIncStrongHandle(82): Not supported
+03-04 21:26:31.358 21472 21472 E IPCThreadState: attemptIncStrongHandle(69): Not supported
+03-04 21:26:31.359 21472 21472 V ZoomWindowDecorView: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.162811789
+03-04 21:26:31.359 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#3(BLAST Consumer)3](id:53e000000003,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:31.361 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:31.373 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:31.373 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:31.373 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:26:31.374 21472 21472 I Quality : Skipped: false 1 cost 22.125233 refreshRate 16653624 bit true processName com.pololo365.MiExpo
+03-04 21:26:31.386 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:31.388 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:26:31.389 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:26:31.391 21472 21472 D VRI[MainActivity]: onFocusEvent false
+03-04 21:26:31.426 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:26:31.503 21472 21472 I Quality : Skipped: true 1 cost 18.000904 refreshRate 16654728 bit true processName com.pololo365.MiExpo
+03-04 21:26:31.509 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:34.686 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:34.693 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:26:34.875 21472 21472 I Quality : Skipped: true 2 cost 41.307865 refreshRate 16660920 bit true processName com.pololo365.MiExpo
+03-04 21:26:34.886 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:34.887 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@b2535fd
+03-04 21:26:34.887 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:34.887 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@3f942f2
+03-04 21:26:34.888 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:34.909 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#3(BLAST Consumer)3](id:53e000000003,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:34.909 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f7d666a00 (RippleDrawable) with handle 0xb400006f8656b9e0
+03-04 21:26:34.933 21472 21472 I Quality : Skipped: true 2 cost 33.400177 refreshRate 16653552 bit true processName com.pololo365.MiExpo
+03-04 21:26:34.935 21472 21491 D BufferQueueConsumer: [VRI[MainActivity]#3(BLAST Consumer)3](id:53e000000003,api:0,p:-1,c:21472) disconnect
+03-04 21:26:34.935 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:34.935 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:34.954 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:26:34.955 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:34.955 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:35.102 21472 21533 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_MODERATE) received by JS VM, ignoring because it's non-severe
+03-04 21:26:35.773 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:35.953 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=null, action=3, flags=0
+03-04 21:26:35.954 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=2, flags=128
+03-04 21:26:35.963 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{c6a906e VFED..CL. .F....ID 60,309-1020,420 #22 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:26:35.966 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:35.966 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:35.972 21472 21472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+03-04 21:26:36.022 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:36.022 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:36.022 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:36.029 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:38.970 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:38.970 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:26:38.983 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:38.983 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:39.001 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:39.002 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:26:39.003 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:39.003 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:40.129 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:40.129 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:26:40.138 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:40.138 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:40.154 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:40.154 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:26:40.156 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:40.156 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:40.864 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:40.865 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:26:40.877 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:40.877 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:40.903 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:40.903 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:26:40.904 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:40.904 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:41.136 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:41.136 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:26:41.144 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:41.144 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:41.171 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:41.171 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:26:41.173 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:41.173 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:41.579 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:41.580 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:26:41.587 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:41.588 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:41.617 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:41.617 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:26:41.618 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:41.618 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:43.303 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:43.304 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:26:43.317 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:43.317 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:43.348 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:43.348 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:26:43.349 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:43.350 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:43.628 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:43.628 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=7_chars], action=4, flags=128
+03-04 21:26:43.637 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:43.638 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:43.664 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:43.665 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=7_chars], action=4, flags=128
+03-04 21:26:43.666 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:43.666 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:44.145 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:44.145 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=8_chars], action=4, flags=128
+03-04 21:26:44.155 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:44.155 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:44.182 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:44.182 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=8_chars], action=4, flags=128
+03-04 21:26:44.184 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:44.184 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:45.376 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:45.377 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=7_chars], action=4, flags=128
+03-04 21:26:45.385 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:45.385 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:45.414 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:45.414 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=7_chars], action=4, flags=128
+03-04 21:26:45.416 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:45.416 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:45.590 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:45.590 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:26:45.599 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:45.599 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:45.629 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:45.629 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:26:45.630 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:45.630 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:47.186 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:47.186 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:26:47.191 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:47.191 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:47.198 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:47.198 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:47.209 21472 21534 I ReactNativeJS: 'Error al cargar la contraseña', [Error: Invalid key provided to SecureStore. Keys must not be empty and contain only alphanumeric characters, ".", "-", and "_".]
+03-04 21:26:47.213 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:47.213 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:47.215 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:47.215 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:48.280 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:48.280 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=10_chars], action=4, flags=128
+03-04 21:26:48.295 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:48.295 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:48.313 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:48.313 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=10_chars], action=4, flags=128
+03-04 21:26:48.314 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:48.314 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:49.192 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:49.837 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{4602c7e V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:26:49.861 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@5ce928a
+03-04 21:26:49.862 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:49.873 21472 21472 I Quality : Skipped: false 2 cost 33.84814 refreshRate 16655202 bit true processName com.pololo365.MiExpo
+03-04 21:26:49.892 21472 21472 D BufferQueueConsumer: [](id:53e000000004,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:49.892 21472 21472 E IPCThreadState: attemptIncStrongHandle(93): Not supported
+03-04 21:26:49.895 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:a4ede39]#4(BLAST Consumer)4](id:53e000000004,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:49.896 21472 21472 D VRI[PopupWindow:a4ede39]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:49.903 21472 21520 D VRI[PopupWindow:a4ede39]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:49.904 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:49.904 21472 21472 D VRI[PopupWindow:a4ede39]: draw finished.
+03-04 21:26:49.905 21472 21472 I Quality : Skipped: false 1 cost 16.691921 refreshRate 16655131 bit true processName com.pololo365.MiExpo
+03-04 21:26:49.923 21472 21472 D VRI[PopupWindow:a4ede39]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:49.924 21472 21520 D VRI[PopupWindow:a4ede39]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+03-04 21:26:49.925 21472 21472 D VRI[PopupWindow:a4ede39]: draw finished.
+03-04 21:26:50.081 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{98dbeeb V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:26:50.094 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@e075ec7
+03-04 21:26:50.094 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:50.096 21472 21472 I Quality : Skipped: false 2 cost 40.936882 refreshRate 16652808 bit true processName com.pololo365.MiExpo
+03-04 21:26:50.115 21472 21472 D BufferQueueConsumer: [](id:53e000000005,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:50.119 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:178b23a]#5(BLAST Consumer)5](id:53e000000005,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:50.123 21472 21472 D VRI[PopupWindow:178b23a]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:50.129 21472 21520 D VRI[PopupWindow:178b23a]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:50.130 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:50.130 21472 21472 D VRI[PopupWindow:178b23a]: draw finished.
+03-04 21:26:50.132 21472 21472 I Quality : Skipped: false 1 cost 26.781118 refreshRate 16652908 bit true processName com.pololo365.MiExpo
+03-04 21:26:50.132 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=null, action=3, flags=0
+03-04 21:26:50.134 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=2, flags=132
+03-04 21:26:50.159 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{80f7f9c VFED..CL. .F....ID 60,507-1020,618 #28 aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:26:50.177 21472 21472 I Quality : Skipped: false 2 cost 38.35229 refreshRate 16652143 bit true processName com.pololo365.MiExpo
+03-04 21:26:50.177 21472 21472 D VRI[PopupWindow:178b23a]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:50.182 21472 21520 D VRI[PopupWindow:178b23a]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:26:50.183 21472 21472 D VRI[PopupWindow:178b23a]: draw finished.
+03-04 21:26:50.183 21472 21472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+03-04 21:26:50.239 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:50.239 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:50.251 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:50.777 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:50.783 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:26:50.904 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:50.905 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@4d1f78
+03-04 21:26:50.905 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:50.905 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@f3d2651
+03-04 21:26:50.906 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:50.907 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:a4ede39]#4(BLAST Consumer)4](id:53e000000004,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:50.909 21472 21472 D BufferQueueConsumer: [VRI[PopupWindow:a4ede39]#4(BLAST Consumer)4](id:53e000000004,api:0,p:-1,c:21472) disconnect
+03-04 21:26:50.924 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:50.924 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:26:50.926 21472 21472 I Quality : Skipped: false 1 cost 21.0952 refreshRate 16659188 bit true processName com.pololo365.MiExpo
+03-04 21:26:50.928 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:50.928 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:50.933 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=2
+03-04 21:26:51.174 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:51.174 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@33e4abc
+03-04 21:26:51.174 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:51.175 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@5b34a45
+03-04 21:26:51.178 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:51.179 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:178b23a]#5(BLAST Consumer)5](id:53e000000005,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:51.181 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f8c31f400 (RippleDrawable) with handle 0xb400006f8c320440
+03-04 21:26:51.190 21472 21491 D BufferQueueConsumer: [VRI[PopupWindow:178b23a]#5(BLAST Consumer)5](id:53e000000005,api:0,p:-1,c:21472) disconnect
+03-04 21:26:51.725 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:51.876 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:51.876 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:51.892 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.892 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.892 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.896 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.896 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.896 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:26:51.904 21472 21472 D WindowManager: Add to mViews: DecorView@30c9f6d[MainActivity],pkg= com.pololo365.MiExpo
+03-04 21:26:51.922 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@fe0c569
+03-04 21:26:51.922 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:26:51.923 21472 21472 I Quality : Skipped: false 2 cost 36.25016 refreshRate 16652043 bit true processName com.pololo365.MiExpo
+03-04 21:26:51.925 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:51.925 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:51.926 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:51.926 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:51.928 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:26:51.928 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:26:51.949 21472 21472 D BufferQueueConsumer: [](id:53e000000006,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:26:51.950 21472 21472 E IPCThreadState: attemptIncStrongHandle(101): Not supported
+03-04 21:26:51.950 21472 21472 E IPCThreadState: attemptIncStrongHandle(99): Not supported
+03-04 21:26:51.951 21472 21472 V ZoomWindowDecorView: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.51158893
+03-04 21:26:51.953 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#6(BLAST Consumer)6](id:53e000000006,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:26:51.954 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:51.960 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:26:51.961 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:26:51.962 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:26:51.963 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:26:51.963 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:26:51.996 21472 21472 D VRI[MainActivity]: onFocusEvent false
+03-04 21:26:51.996 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=1
+03-04 21:26:51.996 21472 21472 I Quality : Skipped: false 3 cost 59.45547 refreshRate 16653343 bit true processName com.pololo365.MiExpo
+03-04 21:26:52.006 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:26:52.009 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:26:52.010 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:26:52.044 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:26:52.136 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:26:53.391 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:26:53.397 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:26:53.536 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:26:53.538 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@6cc494e
+03-04 21:26:53.538 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:26:53.539 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@3a52a6f
+03-04 21:26:53.543 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:26:53.545 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#6(BLAST Consumer)6](id:53e000000006,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:26:53.545 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f8c345600 (RippleDrawable) with handle 0xb400006f7d77ecc0
+03-04 21:26:53.566 21472 21491 D BufferQueueConsumer: [VRI[MainActivity]#6(BLAST Consumer)6](id:53e000000006,api:0,p:-1,c:21472) disconnect
+03-04 21:26:53.571 21472 21472 I Quality : Skipped: true 2 cost 35.04113 refreshRate 16656078 bit true processName com.pololo365.MiExpo
+03-04 21:26:53.572 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:53.572 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:53.613 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:26:53.614 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:26:53.614 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:26:59.074 21472 21485 W ololo365.MiExpo: Cleared Reference was only reachable from finalizer (only reported once)
+03-04 21:27:03.408 21472 21472 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10246; state: ENABLED
+03-04 21:27:04.609 21472 21472 D VRI[MainActivity]: onFocusEvent false
+03-04 21:27:08.380 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:27:50.498 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:07.101 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:07.183 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=null, action=3, flags=0
+03-04 21:28:07.185 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=2, flags=0
+03-04 21:28:07.193 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{c6a906e VFED..CL. .F.P..ID 60,309-1020,420 #22 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:28:07.205 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:07.205 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:07.277 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:28:07.277 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:28:07.321 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:28:10.911 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:10.911 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:28:10.920 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:10.920 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:10.934 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:10.934 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=1_chars], action=4, flags=128
+03-04 21:28:10.936 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:10.936 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:11.598 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:11.598 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:28:11.604 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:11.604 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:11.616 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:11.616 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=2_chars], action=4, flags=128
+03-04 21:28:11.617 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:11.617 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.043 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.043 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:28:12.053 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.053 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.081 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.081 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=3_chars], action=4, flags=128
+03-04 21:28:12.082 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.082 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.438 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.439 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:28:12.451 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.451 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.482 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.482 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:28:12.483 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.484 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.904 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.905 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:28:12.917 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.917 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:12.934 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:12.934 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:28:12.936 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:12.936 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:15.641 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:15.641 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:28:15.648 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:15.648 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:15.678 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:15.678 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=4_chars], action=4, flags=128
+03-04 21:28:15.680 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:15.680 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:16.138 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:16.139 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:28:16.150 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:16.150 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:16.179 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:16.179 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=5_chars], action=4, flags=128
+03-04 21:28:16.181 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:16.181 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:18.367 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:18.367 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:28:18.378 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:18.379 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:18.411 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:18.411 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=6_chars], action=4, flags=128
+03-04 21:28:18.413 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:18.413 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:19.524 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:19.524 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:28:19.532 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:19.532 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:19.557 21472 21534 I ReactNativeJS: 'Error al cargar la contraseña', [Error: Invalid key provided to SecureStore. Keys must not be empty and contain only alphanumeric characters, ".", "-", and "_".]
+03-04 21:28:19.560 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:19.561 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:28:19.562 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:19.562 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:20.603 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:20.603 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=10_chars], action=4, flags=128
+03-04 21:28:20.609 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:20.610 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:20.643 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:20.643 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=10_chars], action=4, flags=128
+03-04 21:28:20.645 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:20.645 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:21.553 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:21.674 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=null, action=3, flags=0
+03-04 21:28:21.676 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=2, flags=132
+03-04 21:28:21.688 21472 21472 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{80f7f9c VFED..CL. .F.P..ID 60,507-1020,618 #28 aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT
+03-04 21:28:21.694 21472 21472 W RemoteInputConnectionImpl: requestCursorAnchorInfo on inactive InputConnection
+03-04 21:28:21.753 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:28:21.753 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:28:21.756 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:28:21.775 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:28:22.598 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:23.198 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{59b098c V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:28:23.224 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@b53278
+03-04 21:28:23.225 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:28:23.236 21472 21472 I Quality : Skipped: false 2 cost 33.969383 refreshRate 16654929 bit true processName com.pololo365.MiExpo
+03-04 21:28:23.258 21472 21472 D BufferQueueConsumer: [](id:53e000000007,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:28:23.258 21472 21472 E IPCThreadState: attemptIncStrongHandle(110): Not supported
+03-04 21:28:23.261 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:291eebf]#7(BLAST Consumer)7](id:53e000000007,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:28:23.262 21472 21472 D VRI[PopupWindow:291eebf]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:23.267 21472 21520 D VRI[PopupWindow:291eebf]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:28:23.269 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:28:23.270 21472 21472 D VRI[PopupWindow:291eebf]: draw finished.
+03-04 21:28:23.271 21472 21472 I Quality : Skipped: false 1 cost 18.701214 refreshRate 16654555 bit true processName com.pololo365.MiExpo
+03-04 21:28:23.287 21472 21472 D VRI[PopupWindow:291eebf]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:23.289 21472 21520 D VRI[PopupWindow:291eebf]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+03-04 21:28:23.289 21472 21472 D VRI[PopupWindow:291eebf]: draw finished.
+03-04 21:28:23.552 21472 21472 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{4e7ba02 V.E...... R.....I. 0,0-0,0},pkg= com.pololo365.MiExpo
+03-04 21:28:23.565 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@71b744e
+03-04 21:28:23.566 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:28:23.567 21472 21472 I Quality : Skipped: false 3 cost 64.88188 refreshRate 16654059 bit true processName com.pololo365.MiExpo
+03-04 21:28:23.583 21472 21472 D BufferQueueConsumer: [](id:53e000000008,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:28:23.585 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:b15df4d]#8(BLAST Consumer)8](id:53e000000008,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:28:23.593 21472 21472 D VRI[PopupWindow:b15df4d]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:23.598 21472 21520 D VRI[PopupWindow:b15df4d]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:28:23.599 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:28:23.600 21472 21472 D VRI[PopupWindow:b15df4d]: draw finished.
+03-04 21:28:23.601 21472 21472 I Quality : Skipped: false 1 cost 32.561375 refreshRate 16654059 bit true processName com.pololo365.MiExpo
+03-04 21:28:23.608 21472 21472 D VRI[PopupWindow:b15df4d]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:23.611 21472 21520 D VRI[PopupWindow:b15df4d]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:28:23.611 21472 21472 D VRI[PopupWindow:b15df4d]: draw finished.
+03-04 21:28:24.273 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:24.281 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:28:24.366 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:28:24.366 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@746a7b2
+03-04 21:28:24.366 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:28:24.367 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@5d9d303
+03-04 21:28:24.367 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:28:24.368 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:291eebf]#7(BLAST Consumer)7](id:53e000000007,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:28:24.369 21472 21472 D BufferQueueConsumer: [VRI[PopupWindow:291eebf]#7(BLAST Consumer)7](id:53e000000007,api:0,p:-1,c:21472) disconnect
+03-04 21:28:24.387 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:24.387 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=11_chars], action=4, flags=128
+03-04 21:28:24.388 21472 21472 I Quality : Skipped: false 1 cost 20.434025 refreshRate 16653003 bit true processName com.pololo365.MiExpo
+03-04 21:28:24.391 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:24.391 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:24.395 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=2
+03-04 21:28:24.638 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:28:24.639 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@bf77b0a
+03-04 21:28:24.639 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:28:24.639 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@3989f7b
+03-04 21:28:24.643 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:28:24.645 21472 21520 D BufferQueueProducer: [VRI[PopupWindow:b15df4d]#8(BLAST Consumer)8](id:53e000000008,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:28:24.646 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f7ebdae00 (RippleDrawable) with handle 0xb400006ff5249a40
+03-04 21:28:24.663 21472 23055 D BufferQueueConsumer: [VRI[PopupWindow:b15df4d]#8(BLAST Consumer)8](id:53e000000008,api:0,p:-1,c:21472) disconnect
+03-04 21:28:30.886 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:31.102 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:28:31.102 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:28:31.121 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.121 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.121 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.125 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.126 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.126 21472 21472 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+03-04 21:28:31.136 21472 21472 D WindowManager: Add to mViews: DecorView@ae2210d[MainActivity],pkg= com.pololo365.MiExpo
+03-04 21:28:31.156 21472 21472 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@a1cc109
+03-04 21:28:31.156 21472 21472 D InputEventReceiver: Input log is disabled
+03-04 21:28:31.157 21472 21472 I Quality : Skipped: false 2 cost 44.182575 refreshRate 16653896 bit true processName com.pololo365.MiExpo
+03-04 21:28:31.159 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:31.159 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:28:31.160 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:31.160 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741826, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:28:31.162 21472 21472 V TextView: notifyAutoFillManagerAfterTextChanged
+03-04 21:28:31.162 21472 21472 V AutofillManager: updateSessionLocked(): id=1073741825, bounds=null, value=[type=1, value=0_chars], action=4, flags=128
+03-04 21:28:31.178 21472 21472 D BufferQueueConsumer: [](id:53e000000009,api:0,p:-1,c:21472) connect: controlledByApp=false
+03-04 21:28:31.179 21472 21472 E IPCThreadState: attemptIncStrongHandle(83): Not supported
+03-04 21:28:31.179 21472 21472 E IPCThreadState: attemptIncStrongHandle(86): Not supported
+03-04 21:28:31.181 21472 21472 V ZoomWindowDecorView: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.182591757
+03-04 21:28:31.181 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#9(BLAST Consumer)9](id:53e000000009,api:1,p:21472,c:21472) connect: api=1 producerControlledByApp=true
+03-04 21:28:31.184 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:31.190 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+03-04 21:28:31.191 21472 21520 W Parcel  : Expecting binder but got null!
+03-04 21:28:31.191 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:28:31.193 21472 21472 D CursorFeedback: getExtraCursorWidth
+03-04 21:28:31.193 21472 21472 D CursorFeedback: getExtraLeftOffset
+03-04 21:28:31.214 21472 21472 D VRI[MainActivity]: onFocusEvent false
+03-04 21:28:31.214 21472 21472 V AutofillManager: notifyCallback(): sessionId=458940692, autofillId=1073741826@458940692, event=1
+03-04 21:28:31.214 21472 21472 I Quality : Skipped: false 3 cost 51.036705 refreshRate 16653064 bit true processName com.pololo365.MiExpo
+03-04 21:28:31.231 21472 21472 D VRI[MainActivity]: registerCallbacksForSync syncBuffer=false
+03-04 21:28:31.233 21472 21520 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+03-04 21:28:31.234 21472 21472 D VRI[MainActivity]: draw finished.
+03-04 21:28:31.253 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:28:31.307 21472 21472 D InsetsController: show(ime(), fromIme=true)
+03-04 21:28:42.973 21472 21472 V AutofillManager: requestHideFillUi(null): anchor = null
+03-04 21:28:42.980 21472 21472 D OplusSystemUINavigationGestureExtImpl: regionString = null
+03-04 21:28:43.082 21472 21472 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+03-04 21:28:43.083 21472 21472 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@e5b77e9
+03-04 21:28:43.083 21472 21472 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver 
+03-04 21:28:43.083 21472 21472 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@2b13c6e
+03-04 21:28:43.087 21472 21472 V ZoomWindowDecorView: removeZoomView
+03-04 21:28:43.088 21472 21520 D BufferQueueProducer: [VRI[MainActivity]#9(BLAST Consumer)9](id:53e000000009,api:1,p:21472,c:21472) disconnect: api 1
+03-04 21:28:43.088 21472 21520 D OpenGLRenderer: endAllActiveAnimators on 0xb400006f7d697200 (RippleDrawable) with handle 0xb400006f8656bec0
+03-04 21:28:43.117 21472 23055 D BufferQueueConsumer: [VRI[MainActivity]#9(BLAST Consumer)9](id:53e000000009,api:0,p:-1,c:21472) disconnect
+03-04 21:28:43.119 21472 21472 I Quality : Skipped: true 1 cost 29.760303 refreshRate 16664600 bit true processName com.pololo365.MiExpo
+03-04 21:28:43.121 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:28:43.121 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+03-04 21:28:43.163 21472 21472 D VRI[MainActivity]: onFocusEvent true
+03-04 21:28:43.163 21472 21472 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+03-04 21:28:43.163 21472 21472 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.

@@ -13,7 +13,7 @@ const LoginScreen = ({ navigation }) => {
       const storedPassword = await SecureStore.getItemAsync(username);
       if (storedPassword) {
         setPassword(storedPassword);
-        console.log('Contraseña recuperada:', storedPassword);
+        //console.log('Contraseña recuperada:', storedPassword);
       } else {
         setPassword('');
       }

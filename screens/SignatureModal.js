@@ -56,8 +56,8 @@ const SignatureModal = ({ visible, onClose, orderId, token }) => {
       
       // Eliminamos el archivo temporal ya que no lo necesitamos
       await FileSystem.deleteAsync(fileUri, { idempotent: true });
-      console.log('orderId', orderId);
-      console.log('token', token);
+      //console.log('orderId', orderId);
+      //console.log('token', token);
 
       
       // Enviamos la firma comprimida al servidor usando el endpoint específico para la orden.
@@ -85,7 +85,6 @@ const SignatureModal = ({ visible, onClose, orderId, token }) => {
         Alert.alert("Error", data.message || "Error al enviar la firma.");
       }
     } catch (error) {
-      console.log('error', error);
       console.error(error);
       Alert.alert("Error", "Ha ocurrido un error al procesar la firma.");
     } finally {

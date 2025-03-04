@@ -11,7 +11,7 @@ const HomeScreen = ({ route, navigation }) => {
 
   useEffect(() => {
     // Imprime en consola al entrar a HomeScreen
-    console.log('Estoy en HomeScreen: ', token);
+    //console.log('Estoy en HomeScreen: ', token);
 
     // Intervalo para actualizar la fecha y hora cada segundo
     const timer = setInterval(() => {

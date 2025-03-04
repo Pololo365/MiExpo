@@ -54,7 +54,7 @@ const WorkOrdersScreen = ({ route, navigation }) => {
       <Text style={styles.orderText}>Fecha: {formatDate(item.fecha)}</Text>
       <Text style={styles.orderText}>Situación: {item.situacion}</Text>
       <Text style={styles.orderText}>Instalar en: {item.instalar_en}</Text>
-      <Text style={styles.orderText}>¿Tiene firma?: {item.tiene_firma ? 'Sí' : 'No'}</Text>
+      <Text style={styles.orderText}>¿Tiene firma?: {item.tiene_firma ? '✅' : '❌'}</Text>
     </TouchableOpacity>
   );
 

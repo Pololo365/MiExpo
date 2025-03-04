@@ -60,15 +60,19 @@ const DetalleOrdenScreen = ({ route }) => {
           <Text style={styles.detailText}>Situación: {orderDetail.situacion_trabajo}</Text>
           <Text style={styles.detailText}>Instalar en: {orderDetail.instalar_en}</Text>
           <Text style={styles.detailText}>Descripción: {orderDetail.descripcion || 'No disponible'}</Text>
-          <Text style={styles.detailText}>¿Tiene firma?: {orderDetail.tiene_firma ? 'Sí' : 'No'}</Text>
+          <Text style={styles.detailText}>¿Tiene firma?: {orderDetail.tiene_firma ? '✅' : '❌'}</Text>
           
           {/* Botón "Firmar" para abrir el modal donde se capturará la firma */}
+          {!orderDetail.tiene_firma ? (
           <TouchableOpacity 
             style={styles.firmarButton} 
             onPress={() => setModalVisible(true)} // Al pulsar se muestra el modal
           >
             <Text style={styles.firmarButtonText}>Firmar</Text>
           </TouchableOpacity>
+          ) : (
+            <Text>Orden ya firmada.</Text>
+          )}
         </>
       ) : (
         <Text>No se encontró información para esta orden.</Text>
