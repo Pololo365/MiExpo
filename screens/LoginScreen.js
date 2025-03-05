@@ -1,11 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, Alert } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
+import NetInfo from '@react-native-community/netinfo';
 
-// Se recibe la prop 'navigation' para poder navegar a otras pantallas
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [isConnected, setIsConnected] = useState(false);
+
+  // Escucha los cambios en la conectividad
+  useEffect(() => {
+    const unsubscribe = NetInfo.addEventListener(state => {
+      setIsConnected(state.isConnected);
+    });
+    return () => unsubscribe();
+  }, []);
 
   // Cargar la contraseña guardada de forma segura para el usuario
   const loadPassword = async (username) => {
@@ -34,6 +43,11 @@ const LoginScreen = ({ navigation }) => {
   // Función para manejar el inicio de sesión
   const handleLogin = async () => {
     try {
+      // Aquí podrías también verificar si hay conexión antes de hacer la petición
+      if (!isConnected) {
+        Alert.alert('Sin conexión', 'No tienes acceso a internet.');
+        return;
+      }
       // Petición a la API para autenticar al usuario
       const response = await fetch('http://erpcloud.syncsolutions.es:3030/api/v1/auth/login', {
         method: 'POST',
@@ -44,16 +58,13 @@ const LoginScreen = ({ navigation }) => {
       const data = await response.json();
 
       if (response.ok) {
-        // Muestra alerta de éxito sin mostrar el token
         Alert.alert('Éxito', 'Inicio de sesión exitoso', [
           {
             text: 'Guardar contraseña',
             onPress: async () => {
               try {
-                // Guarda la contraseña y el token de forma segura
                 await SecureStore.setItemAsync(username, password);
                 await SecureStore.setItemAsync('token', data.token);
-                // Navega a HomeScreen pasando el token y un mensaje
                 navigation.navigate('Home', { message: data.message || 'Bienvenido', token: data.token });
               } catch (error) {
                 console.log('Error al guardar las credenciales', error);
@@ -63,27 +74,30 @@ const LoginScreen = ({ navigation }) => {
           {
             text: 'OK',
             onPress: () => {
-              // Navega a HomeScreen sin guardar las credenciales
               navigation.navigate('Home', { message: data.message || 'Bienvenido', token: data.token });
             },
           },
         ]);
       } else {
-        // En caso de error, limpia los campos y muestra mensaje
         setUsername('');
         setPassword('');
         Alert.alert('Error', data.message || 'Error en el inicio de sesión');
       }
     } catch (error) {
-      // En error de conexión, limpia campos y muestra mensaje
       setUsername('');
       setPassword('');
-      Alert.alert('Error', 'Error de conexión');
+      console.log('Error de_conexión', error);
+      Alert.alert('Error de conexión', error.message || 'Conexión fallida');
     }
   };
 
   return (
     <View style={{ padding: 20 }}>
+      {/* Muestra el estado de la conexión */}
+      <Text style={{ fontSize: 20, marginBottom: 10 }}>
+        Conexión a internet: {isConnected ? "✅" : "❌"}
+      </Text>
+
       <Text>Nombre de usuario:</Text>
       <TextInput
         value={username}
